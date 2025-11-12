@@ -1,0 +1,31 @@
+# ===== PYTHON CACHE FILES =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== LOCAL CACHE FOLDER =====
+cache/
+
+# ===== VSCODE / IDE SETTINGS =====
+.vscode/
+.idea/
+
+# ===== ENVIRONMENTS =====
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+
+# ===== LOGS / TEMP FILES =====
+*.log
+*.tmp
+
+# ===== BUILD & DISTRIBUTION =====
+build/
+dist/
+*.egg-info/

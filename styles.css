@@ -1,0 +1,121 @@
+
+body {
+    background-color: #0E1117;
+    color: #E6E6E6;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    letter-spacing: 0.3px;
+}
+
+section.main > div {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background: rgba(18, 21, 27, 0.6);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+}
+
+
+h1, h2, h3 {
+    color: #00E0C6;
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid rgba(0, 224, 198, 0.2);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+
+.stButton > button {
+    background: linear-gradient(90deg, #00E0C6, #007C88);
+    color: #0E1117;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    transition: 0.25s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.stButton > button:hover {
+    transform: scale(1.03);
+    background: linear-gradient(90deg, #00FFFF, #0096A7);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+}
+
+
+.stSelectbox, .stTextInput, .stNumberInput, .stDateInput {
+    background-color: #1B1E27 !important;
+    border-radius: 6px !important;
+    color: #E6E6E6 !important;
+}
+
+.stSelectbox div[data-baseweb="select"] > div {
+    background-color: #1B1E27 !important;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+
+[data-testid="stSidebar"] {
+    background-color: #0B0D10 !important;
+    border-right: 1px solid rgba(0, 224, 198, 0.2);
+    box-shadow: 4px 0 20px rgba(0, 255, 255, 0.05);
+}
+
+[data-testid="stSidebar"] h2, 
+[data-testid="stSidebar"] h3 {
+    color: #00E0C6 !important;
+}
+
+
+.css-1lcbmhc, .stPlotlyChart, .stAltairChart {
+    background: rgba(18, 21, 27, 0.6);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+}
+
+
+[data-testid="stMetricValue"] {
+    color: #00E0C6 !important;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #00E0C6, transparent);
+    margin: 1rem 0;
+}
+
+
+
+
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #141824, #0e1117);
+    border-right: 2px solid #011205;
+    box-shadow: inset -2px 0 20px rgba(0, 255, 255, 0.2);
+}
+
+section[data-testid="stSidebar"] h2 {
+    color: #011808;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+[data-testid="stSidebar"] .stButton button {
+    width: 100%;
+    background: #012001;
+    color: #fff;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+
