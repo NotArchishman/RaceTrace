@@ -4,7 +4,8 @@ __pycache__/
 *$py.class
 
 # ===== LOCAL CACHE FOLDER =====
-cache/
+cache/*
+!cache/.gitkeep
 
 # ===== VSCODE / IDE SETTINGS =====
 .vscode/

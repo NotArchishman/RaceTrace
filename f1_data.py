@@ -1,7 +1,8 @@
 import fastf1
 import pandas as pd
 from functools import lru_cache
-
+import os
+os.makedirs("cache", exist_ok=True)
 
 fastf1.Cache.enable_cache("cache")
 
