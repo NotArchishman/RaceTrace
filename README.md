@@ -12,6 +12,9 @@ Displays live and historical race data, driver comparisons, and circuit maps.
 - Pit Stop visualization and statistics
 - Tyre compound usage analytics
 
+## Things to Note
+- When you run the program for the first time, the results may take some time to load. This is because the data is being fetched and parsed from FastF1's Api.
+
 ## Run Instructions
 ```bash
 pip install -r requirements.txt
